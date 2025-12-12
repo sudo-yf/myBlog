@@ -1,0 +1,55 @@
+import type { IconMap, SocialLink, Site } from '@/types'
+
+export const SITE: Site = {
+  title: "yf's blog",
+  description:
+    'Recording my college life and passion exploration',
+  href: 'https://sudo-yf.github.io/myBlog',
+  author: 'yf',
+  locale: 'en-US',
+  featuredPostCount: 2,
+  postsPerPage: 4,
+}
+
+export const NAV_LINKS: SocialLink[] = [
+  {
+    href: '/',
+    label: 'Home',
+  },
+  {
+    href: '/blog',
+    label: 'Blog',
+  },
+  {
+    href: '/work',
+    label: 'Work',
+  },
+  {
+    href: '/about',
+    label: 'About',
+  },
+]
+
+export const SOCIAL_LINKS: SocialLink[] = [
+  {
+    href: 'https://github.com/sudo-yf',
+    label: 'GitHub',
+  },
+  {
+    href: 'mailto:shiyi20060618@gmail.com',
+    label: 'Email',
+  },
+  {
+    href: '/rss.xml',
+    label: 'RSS',
+  },
+]
+
+export const ICON_MAP: IconMap = {
+  Website: 'lucide:globe',
+  GitHub: 'lucide:github',
+  LinkedIn: 'lucide:linkedin',
+  Twitter: 'lucide:twitter',
+  Email: 'lucide:mail',
+  RSS: 'lucide:rss',
+}
